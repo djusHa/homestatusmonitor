@@ -9,7 +9,7 @@ For Ledtype with DATAPIN AND COLORORDER, like WS2811, comment out
 
 For Ledtype that has DATAPIN, CLOCKPIN an COLORORDER, like APA102, comment out `#define HASALL`
 
-Even *** don't forget *** to define right choices in `#ifdef` blocks to fit
+Even **don't forget** to define right choices in `#ifdef` blocks to fit
 your setup.
 
 *** Example ***
