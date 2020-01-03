@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HomeStatusDisplay
 
 Show status information sent via MQTT (e.g. from FHEM or any other MQTT-speaking system) using RGB LEDs.
@@ -26,3 +27,7 @@ There you will find a configuration page in which you have to enter your setting
 
 You can find more detailed information in the tutorial on my website (it's in German, unfortunately...):
 http://www.bernd-schubart.de/homestatusdisplay-smart-home-status-immer-im-blick/
+=======
+# homestatusmonitor
+
+>>>>>>> a48cdc40ff1ea01aa0d9c2433513de189b493771
