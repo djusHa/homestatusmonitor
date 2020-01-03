@@ -15,7 +15,7 @@ It originally written by Bernd Schubart.
 **Changes**
 ---
 - Added FastLED lib
-- Add possibility to connect to MQTT Brocker with username and password
+- Add possibility to connect to MQTT Broker with username and password
 - Add possibility to change the Hostname
 - Webinterface redesign
 - some HTML fixes
