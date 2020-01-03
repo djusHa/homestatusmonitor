@@ -6,6 +6,12 @@ It originally written by Bernd Schubart.
 - [HomeStatusDisplay@Github](https://github.com/MTJoker/HomeStatusDisplay)
 - [https://www.bernd-schubart.de/](https://www.bernd-schubart.de/)
 
+**Screenshots**
+---
+![web1](screenshots/web1.png)
+![web2](screenshots/web2.png)
+![web3](screenshots/web3.png)
+
 **Changes**
 ---
 - Added FastLED lib
