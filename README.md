@@ -9,6 +9,8 @@ It originally written by Bernd Schubart.
 **Screenshots**
 ---
 <img src="screenshots/web1.png" width="100px">
+<img src="screenshots/web2.png" width="100px">
+<img src="screenshots/web3.png" width="100px">
 
 **Changes**
 ---
