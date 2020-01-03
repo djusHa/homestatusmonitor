@@ -1,3 +1,27 @@
+**What is HomeStatusDisplay**
+---
+Show status information sent via MQTT (e.g. from FHEM or any other MQTT-speaking system) using RGB LEDs.
+
+It originally written by Bernd Schubart.
+[HomeStatusDisplay@Github](https://github.com/MTJoker/HomeStatusDisplay)
+[https://www.bernd-schubart.de/](https://www.bernd-schubart.de/)
+
+**Changes**
+---
+- Added FastLED lib
+- Add possibility to connect to MQTT Brocker with username and password
+- Add possibility to change the Hostname
+- Webinterface redesign
+- some HTML fixes
+
+**Compile**
+---
+You need:
+- Arduino IDE or Platform IO (recommended)
+- FastLED Lib [FastLED](https://github.com/FastLED/FastLED)
+- Pubsubclient LIB [pubsubclient](https://github.com/knolleary/pubsubclient)
+- ArduinoJson ***v5.x*** LIB [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+
 **Config**
 ---
 Please define your LED Stripe Type in HSDLeds.hpp.
@@ -29,8 +53,8 @@ set DATAPIN **3**, CLOCKPIN **2** an COLORORDER **BGR** in `#ifdef` block:
 #endif
 ```
 
-A good Reference is at fastled wiki:
+a good Reference is fastled wiki:
 [FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Chipset-reference#upcoming)
 
-or in examples directory:
+or their examples directory:
 [FastLED Examples](https://github.com/FastLED/FastLED/tree/master/examples)
