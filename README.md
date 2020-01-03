@@ -28,3 +28,6 @@ set DATAPIN 3, CLOCKPIN 2 an COLORORDER BGR in `#ifdef` block:
   #define COLORORDER BGR
 #endif
 ```
+
+A good Reference is at fastled wiki:
+(https://github.com/FastLED/FastLED/wiki/Chipset-reference#upcoming)
