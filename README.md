@@ -3,8 +3,8 @@
 Show status information sent via MQTT (e.g. from FHEM or any other MQTT-speaking system) using RGB LEDs.
 
 It originally written by Bernd Schubart.
-[HomeStatusDisplay@Github](https://github.com/MTJoker/HomeStatusDisplay)
-[https://www.bernd-schubart.de/](https://www.bernd-schubart.de/)
+- [HomeStatusDisplay@Github](https://github.com/MTJoker/HomeStatusDisplay)
+- [https://www.bernd-schubart.de/](https://www.bernd-schubart.de/)
 
 **Changes**
 ---
