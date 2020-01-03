@@ -8,9 +8,7 @@ It originally written by Bernd Schubart.
 
 **Screenshots**
 ---
-![web1](screenshots/web1.png)
-![web2](screenshots/web2.png)
-![web3](screenshots/web3.png)
+<img src="screenshots/web1.png" width="100px">
 
 **Changes**
 ---
