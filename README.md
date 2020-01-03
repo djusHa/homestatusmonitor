@@ -16,7 +16,8 @@ your setup.
 **Example**
 ---
 APA102 LED Stripe setup:
-comment out `#define HASALL`
+
+comment out `#define HASALL` and
 set DATAPIN, CLOCKPIN an COLORORDER in
 ```
 #ifdef HASALL
