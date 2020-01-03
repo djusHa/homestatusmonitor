@@ -18,7 +18,9 @@ your setup.
 APA102 LED Stripe setup:
 
 comment out `#define HASALL` and
-set DATAPIN 3, CLOCKPIN 2 an COLORORDER BGR in
+set DATAPIN 3, CLOCKPIN 2 an COLORORDER BGR in `#ifdef` block:
+
+
 ```
 #ifdef HASALL
   #define DATAPIN 3
