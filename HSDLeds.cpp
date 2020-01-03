@@ -29,8 +29,18 @@ void HSDLeds::begin()
   m_pLedState = new LedState[m_numLeds];
 
   leds = new CRGB[m_numLeds];
-    
-  FastLED.addLeds<LEDTYPE, DATAPIN, CLOCKPIN, COLORORDER>(leds, m_numLeds);
+
+  #ifdef HASCLOCKPIN
+    FastLED.addLeds<LEDTYPE, CLOCKPIN>(leds, m_numLeds);
+  #endif
+
+  #ifdef HASCLOCKPINANDCOLORORDER
+    FastLED.addLeds<LEDTYPE, CLOCKPIN, COLORORDER>(leds, m_numLeds);
+  #endif
+
+  #ifdef HASALL
+    FastLED.addLeds<LEDTYPE, DATAPIN, CLOCKPIN, COLORORDER>(leds, m_numLeds);
+  #endif
 
   FastLED.setBrightness(m_config.getLedBrightness());
   

@@ -4,9 +4,25 @@
 #include <FastLED.h>
 
 #define LEDTYPE APA102
-#define DATAPIN 3
-#define CLOCKPIN 2
-#define COLORORDER BGR
+
+//#define HASCLOCKPIN
+//#define HASCLOCKPINANDCOLORORDER
+#define HASALL
+
+#ifdef HASCLOCKPIN
+ #define CLOCKPIN 2
+#endif
+
+#ifdef HASCLOCKPINANDCOLORORDER
+  #define CLOCKPIN 2
+  #define COLORORDER RGB
+#endif
+
+#ifdef HASALL
+  #define DATAPIN 3
+  #define CLOCKPIN 2
+  #define COLORORDER BGR
+#endif
 
 class HSDLeds
 {
