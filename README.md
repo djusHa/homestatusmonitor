@@ -1,4 +1,5 @@
-## config
+**Config**
+---
 Please define your LED Stripe Type in HSDLeds.hpp.
 
 For Ledtype with DATAPIN only, like Neopixel, comment out
