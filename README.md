@@ -32,6 +32,8 @@ You need:
 ---
 Please define your LED Stripe Type in HSDLeds.hpp.
 
+First your Ledtype `#define LEDTYPE APA102`.
+
 For Ledtype with DATAPIN only, like ***Neopixel***, comment out
 `#define HASCLOCKPIN`
 
@@ -46,6 +48,8 @@ your setup.
 **Example**
 ---
 APA102 LED Stripe setup:
+
+`#define LEDTYPE APA102`
 
 comment out `#define HASALL` and
 set DATAPIN **3**, CLOCKPIN **2** an COLORORDER **BGR** in `#ifdef` block:
