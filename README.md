@@ -71,6 +71,8 @@ SSID: "StatusDisplay"
 
 PW:   "statusdisplay"
 
+---
+
 a good Reference is fastled wiki:
 [FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Chipset-reference#upcoming)
 
