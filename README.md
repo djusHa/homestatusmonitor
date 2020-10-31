@@ -63,8 +63,11 @@ set CLOCKPIN **3**, DATAPIN **2** an COLORORDER **BGR** in `#ifdef` block:
 #endif
 ```
 
-After flashing and reboot, there will be a new WiFi Network:
+
+*After flashing and reboot, there will be a new WiFi Network:*
+
 SSID: "StatusDisplay"
+
 PW:   "statusdisplay"
 
 a good Reference is fastled wiki:
