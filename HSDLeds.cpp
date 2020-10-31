@@ -30,11 +30,11 @@ void HSDLeds::begin()
 
   leds = new CRGB[m_numLeds];
 
-  #ifdef HASCLOCKPIN
+  #ifdef HASDATAPIN
     FastLED.addLeds<LEDTYPE, DATAPIN>(leds, m_numLeds);
   #endif
 
-  #ifdef HASCLOCKPINANDCOLORORDER
+  #ifdef HASDATAPINANDCOLORORDER
     FastLED.addLeds<LEDTYPE, DATAPIN, COLORORDER>(leds, m_numLeds);
   #endif
 
