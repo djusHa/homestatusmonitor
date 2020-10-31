@@ -3,24 +3,24 @@
 #include "HSDConfig.hpp"
 #include <FastLED.h>
 
-#define LEDTYPE APA102
+#define LEDTYPE WS2812B
 
 //#define HASCLOCKPIN
-//#define HASCLOCKPINANDCOLORORDER
-#define HASALL
+#define HASCLOCKPINANDCOLORORDER
+//#define HASALL
 
 #ifdef HASCLOCKPIN
- #define CLOCKPIN 2
+ #define DATAPIN 2
 #endif
 
 #ifdef HASCLOCKPINANDCOLORORDER
-  #define CLOCKPIN 2
+  #define DATAPIN 2
   #define COLORORDER RGB
 #endif
 
 #ifdef HASALL
-  #define DATAPIN 3
-  #define CLOCKPIN 2
+  #define CLOCKPIN 3
+  #define DATAPIN 2
   #define COLORORDER BGR
 #endif
 

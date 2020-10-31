@@ -11,6 +11,7 @@ static const int JSON_BUFFER_COLOR_MAPPING_CONFIG_FILE = 3800;  // 3628 exactly
 static const int MAX_SIZE_DEVICE_MAPPING_CONFIG_FILE = 1900;    // 1801 exactly
 static const int JSON_BUFFER_DEVICE_MAPPING_CONFIG_FILE = 4000; // 3908 exactly
 
+static const uint8_t DEFAULT_LED_NUM = 1;
 static const uint8_t DEFAULT_LED_BRIGHTNESS = 50;
 
 const constexpr HSDConfig::ColorTranslator HSDConfig::colorTranslator[8];
@@ -70,7 +71,7 @@ void HSDConfig::resetMainConfigData()
   setMqttTestTopic("");  
   setMqttWillTopic(""); 
 
-  setNumberOfLeds(0);
+  setNumberOfLeds(DEFAULT_LED_NUM);
   setLedBrightness(DEFAULT_LED_BRIGHTNESS);
 }
 

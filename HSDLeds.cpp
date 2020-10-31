@@ -31,15 +31,15 @@ void HSDLeds::begin()
   leds = new CRGB[m_numLeds];
 
   #ifdef HASCLOCKPIN
-    FastLED.addLeds<LEDTYPE, CLOCKPIN>(leds, m_numLeds);
+    FastLED.addLeds<LEDTYPE, DATAPIN>(leds, m_numLeds);
   #endif
 
   #ifdef HASCLOCKPINANDCOLORORDER
-    FastLED.addLeds<LEDTYPE, CLOCKPIN, COLORORDER>(leds, m_numLeds);
+    FastLED.addLeds<LEDTYPE, DATAPIN, COLORORDER>(leds, m_numLeds);
   #endif
 
   #ifdef HASALL
-    FastLED.addLeds<LEDTYPE, DATAPIN, CLOCKPIN, COLORORDER>(leds, m_numLeds);
+    FastLED.addLeds<LEDTYPE, CLOCKPIN, DATAPIN, COLORORDER>(leds, m_numLeds);
   #endif
 
   FastLED.setBrightness(m_config.getLedBrightness());
