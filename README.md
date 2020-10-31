@@ -35,10 +35,10 @@ Please define your LED Stripe Type in HSDLeds.hpp.
 First your Ledtype `#define LEDTYPE APA102`.
 
 For Ledtype with DATAPIN only, like ***Neopixel***, comment out
-`#define HASCLOCKPIN`
+`#define HASDATAPIN`
 
 For Ledtype with DATAPIN and COLORORDER, like ***WS2811***, comment out
-`#define HASCLOCKPINANDCOLORORDER`
+`#define HASDATAPINANDCOLORORDER`
 
 For Ledtype that has DATAPIN, CLOCKPIN and COLORORDER, like ***APA102***, comment out `#define HASALL`
 
@@ -52,7 +52,7 @@ APA102 LED Stripe setup:
 `#define LEDTYPE APA102`
 
 comment out `#define HASALL` and
-set DATAPIN **3**, CLOCKPIN **2** an COLORORDER **BGR** in `#ifdef` block:
+set CLOCKPIN **3**, DATAPIN **2** an COLORORDER **BGR** in `#ifdef` block:
 
 
 ```
@@ -62,6 +62,10 @@ set DATAPIN **3**, CLOCKPIN **2** an COLORORDER **BGR** in `#ifdef` block:
   #define COLORORDER BGR
 #endif
 ```
+
+After flashing and reboot, there will be a new WiFi Network:
+SSID: "StatusDisplay"
+PW:   "statusdisplay"
 
 a good Reference is fastled wiki:
 [FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Chipset-reference#upcoming)
