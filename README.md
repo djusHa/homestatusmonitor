@@ -57,8 +57,8 @@ set CLOCKPIN **3**, DATAPIN **2** an COLORORDER **BGR** in `#ifdef` block:
 
 ```
 #ifdef HASALL
-  #define DATAPIN 3
-  #define CLOCKPIN 2
+  #define CLOCKPIN 3
+  #define DATAPIN 2
   #define COLORORDER BGR
 #endif
 ```
