@@ -64,7 +64,7 @@ set CLOCKPIN **3**, DATAPIN **2** an COLORORDER **BGR** in `#ifdef` block:
 ```
 
 
-*After flashing and reboot, there will be a new WiFi Network:*
+**After flashing and reboot, there will be a new WiFi Network:**
 
 SSID: "StatusDisplay"
 
