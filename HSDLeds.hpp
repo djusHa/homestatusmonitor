@@ -9,7 +9,7 @@
 #define HASDATAPINANDCOLORORDER
 //#define HASALL
 
-#ifdef HASCLOCKPIN
+#ifdef HASDATAPIN
  #define DATAPIN 2
 #endif
 
