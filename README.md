@@ -71,6 +71,12 @@ SSID: "StatusDisplay"
 
 PW:   "statusdisplay"
 
+connect, go over to `http://192.168.4.1/` and configure
+
+the Device.
+
+Enjoy :-)
+
 ---
 
 a good Reference is fastled wiki:
