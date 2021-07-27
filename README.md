@@ -23,7 +23,7 @@ It originally written by Bernd Schubart.
 **Compile**
 ---
 You need:
-- Arduino IDE or Platform IO (recommended)
+- Platform IO
 - FastLED Lib [FastLED](https://github.com/FastLED/FastLED)
 - Pubsubclient LIB [pubsubclient](https://github.com/knolleary/pubsubclient)
 - ArduinoJson ***v5.x*** LIB [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
