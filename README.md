@@ -22,7 +22,7 @@ It originally written by Bernd Schubart.
 
 **Compile**
 ---
-You need:
+You need (all Libs allready in platformio.ini):
 - Platform IO
 - FastLED Lib [FastLED](https://github.com/FastLED/FastLED)
 - Pubsubclient LIB [pubsubclient](https://github.com/knolleary/pubsubclient)
